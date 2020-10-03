@@ -6,7 +6,7 @@ on:
     paths:
       - '.github/workflows/r1s_lean.yml'
   schedule:
-    - cron: '5 5 */4 * *'
+    - cron: '0 1 * * *'
 
 jobs:
 
