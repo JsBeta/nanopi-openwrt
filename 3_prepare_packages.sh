@@ -10,10 +10,6 @@ rm -rf luci-theme-infinityfreedom/ && git clone https://github.com/xiaoqingfengA
 rm -rf luci-app-chinadns-ng/ && git clone https://github.com/WuSiYu/luci-app-chinadns-ng
 rm -rf openwrt-chinadns-ng/ && git clone https://github.com/pexcn/openwrt-chinadns-ng
 
-cp "./shortcut-fe/src/sfe_backport.h" "./fast-classifier/src/sfe_backport.h" 2>/dev/null
-cp "./shortcut-fe/src/sfe.h" "./fast-classifier/src/sfe.h" 2>/dev/null
-cp "./shortcut-fe/src/sfe_cm.h" "./fast-classifier/src/sfe_cm.h" 2>/dev/null
-
 #git clone https://github.com/jerrykuku/lua-maxminddb.git
 #git clone https://github.com/jerrykuku/luci-app-vssr.git
 #cd luci-app-vssr/root/etc/
