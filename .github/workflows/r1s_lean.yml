@@ -29,7 +29,7 @@ jobs:
 
       - name: Clone Source
         run: . 2_clone_source.sh master-v19.07.1 h5
-        	
+
       - name: Patch Kernel
         run: . patch_kernel_5.4_r1s.sh
 
